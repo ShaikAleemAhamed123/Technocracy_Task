@@ -1,0 +1,117 @@
+ 
+
+html {
+    scroll-behavior: smooth;
+}
+.body{
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.navbar{
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px -2px 7px #888888; */
+    font-family: 'Montserrat', 'Arial', 'sans-serif', sans-serif;
+    font-weight: 700 !important;
+    font-size: 14px;
+    /* color: #6600ff !important; */
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    height: auto !important;
+    padding-top: 0.75rem;
+    padding-right: 0 !important;
+}
+
+.navbar .nav-link:hover{
+    color: #fa7268 !important;
+}
+
+.navbar .nav-link{
+    font-family: 'Montserrat', 'Arial', 'sans-serif', sans-serif;
+    font-weight: 700 !important;
+    font-size: 14px;
+    color: #222025;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height:0.8
+}
+
+.navbar .navbar-collapse .nav-item:nth-child(1){
+    position: relative;
+    right: 0;
+}
+.row-1{
+    background-image: linear-gradient(180deg, white,#f4f4ff);
+    
+}
+#intro_img{
+    height: 100vh !important;;
+}
+.intro_content{
+    align-items: center;
+    text-align: left;
+    justify-content: left;
+    padding-left: 10rem;
+}
+.intro_description{
+    font-size: 175px;
+    font-weight: bolder
+}
+
+.description{
+    margin-top: -15rem;
+    text-align: left;
+    justify-content:center;
+}
+#sub-context{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: -45px;
+    line-height:1.2;
+    letter-spacing: -1px;
+}
+.intro_row2{
+    padding-top: 8rem;
+}
+.row2{
+    align-items: center;
+    margin-top: 0rem;
+    padding-left: 11rem;
+}
+.row3 {
+    background-color: #fff;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    margin-top: 8rem;
+}
+
+.row3 .nums {
+    font-weight: bolder;
+    background-color: #fa7268 !important;
+    color: white;
+    padding-left: 10px;
+    border-radius: 3px;
+    padding-right: 10px;
+}
+.row3 .col p {
+    font-family: Arial;
+    font-size: 35px;
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+    letter-spacing: -2px;
+}
+
+.row3 .col p:hover{
+    color: #fa7268;
+    cursor: pointer;
+}
+
+.seperator{
+    width: 67%;
+    margin: auto;
+    margin-top: 2rem;
+}
+ 
